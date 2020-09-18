@@ -1,4 +1,5 @@
 def find_min_in_nested_arrays(src)
+  minimumvalueArray = []
   for outerarray in src do
     minimumvalue = outerarray[0]
     for innerarray in outerarray do
@@ -6,14 +7,8 @@ def find_min_in_nested_arrays(src)
         minimumvalue = innerarray
       end
     end
-       p minimumvalue
+    minimumvalueArray.push(minimumvalue)
   end
   
-  return minimumvalue;;
+  return minimumvalueArray
 end
-
-find_min_in_nested_arrays([
-[1, 6, 7],
-[2, 7, 0],
-[12, 5, 64]
-])
