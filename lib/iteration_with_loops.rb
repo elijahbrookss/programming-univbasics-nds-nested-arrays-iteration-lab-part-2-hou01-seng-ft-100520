@@ -1,5 +1,5 @@
 def find_min_in_nested_arrays(src)
-  minimumvalue = nil
+  minimumvalue = 0
   for outerarray in src do
     for innerarray in outerarray do
       if innerarray < minimumvalue then
