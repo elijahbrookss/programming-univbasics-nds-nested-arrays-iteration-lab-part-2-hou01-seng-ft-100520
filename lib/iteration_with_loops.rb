@@ -5,8 +5,8 @@ def find_min_in_nested_arrays(src)
       if minimumvalue > innerarray then
         minimumvalue = innerarray
       end
-      p minimumvalue
     end
+       p minimumvalue
   end
   
   return minimumvalue;;
