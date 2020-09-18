@@ -1,9 +1,8 @@
 def find_min_in_nested_arrays(src)
   for outerarray in src do
-    p outerarray
     minimumvalue = outerarray[0]
-    p minimumvalue
     for innerarray in outerarray do
+      p innerarray
       if minimumvalue > innerarray then
         minimumvalue = innerarray
         #p minimumvalue
